@@ -1,0 +1,23 @@
+Architectures: aarch64
+Codename: stable
+Components: main
+Date: Thu, 20 Nov 2025 09:34:49 +0000
+Label: vkrm-termux-repo
+Origin: vkrm-termux-repo
+Suite: stable
+MD5Sum:
+ 347f573040793f0d6d747aa03ead9498              158 Release
+ 49249ca315cdcfb8a711681c631357e3           202706 main/binary-aarch64/Packages
+ eab2a5c5847fb8fe02889e8442a99060            72348 main/binary-aarch64/Packages.gz
+SHA1:
+ 629d9199b84a66c8cde38bf4a5524eec6598273c              158 Release
+ 92a0305790627f7b8dab32e8516858d865d9f5f3           202706 main/binary-aarch64/Packages
+ 8ccc27821429fceb77ae80db4e5c8dbbddb2e21d            72348 main/binary-aarch64/Packages.gz
+SHA256:
+ ae26d474c5a2cfb598f15b2e61c6fe372fd9ada0a5b8d5b5cf9409aa544bee95              158 Release
+ d76559981f3b3dc5b718080818e74de2b4378b8f002ceebfb92ba2c8fa447e0d           202706 main/binary-aarch64/Packages
+ 23b7cd62592656d19ec553ece0b84389395e81260d9732a0c40549c22c92032a            72348 main/binary-aarch64/Packages.gz
+SHA512:
+ 9f8882fe631191b019343db97eae323aebdf1fc483eec0ceb4297e8108be20f5e4be7377c689e625ba67b87750b8b4873bd2717c27521c5315214dd5630d0559              158 Release
+ f797041da59cd75d9fc955d41659fd0882ecefc10c8effbce9170b85bd5c03e15a0a1b9fdf97abc2e30e5e9a9614a3bbec4b1c40a5f995f0aad865c2ac44cc08           202706 main/binary-aarch64/Packages
+ 8be248355a635c0433929e8456cbc58b2c49b0ac5246b72088ed7f8b45ea91b3b4e16a8702b589108014f1b06c82d33fd19acf650707635782e0452904ea9315            72348 main/binary-aarch64/Packages.gz
