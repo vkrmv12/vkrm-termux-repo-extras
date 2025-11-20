@@ -5321,6 +5321,48 @@ SHA256: 27fee33f61f64e4a8f07d72b726bc1c4702f622e78ee26a470e7770d7a31bdd0
 Homepage: https://codeberg.org/emersion/soju
 Description: A user-friendly IRC bouncer
 
+Package: sqlcipher-static
+Version: 4.6.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1252
+Depends: sqlcipher (= 4.6.1-1)
+Filename: pool/main/sqlcipher-static_4.6.1-1_aarch64.deb
+Size: 396148
+MD5sum: 7289cf5f9315f47397e41a8a863d1877
+SHA1: 83b63c51481619786691eea27fa960263d4643fb
+SHA256: dccf3343181e0d06a6dfef63936413a2886ceb8687253b12b2ebadb057ccdeb4
+Homepage: https://github.com/sqlcipher/sqlcipher
+Description: Static libraries for sqlcipher
+
+Package: sqlite
+Version: 3.51.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1476
+Depends: readline, zlib
+Filename: pool/main/sqlite_3.51.0_aarch64.deb
+Size: 617780
+MD5sum: 42289b5e6fbc824725f11a8a502620da
+SHA1: 2b4a530bb5fd4a0ae5d17e3ae2967add2e1501d8
+SHA256: dee403d696366f748ff112e1cc42a8e6549ac9abe5e47d5629c2a4be89d9550c
+Homepage: https://www.sqlite.org
+Description: Command line shell for SQLite
+
+Package: stdman
+Version: 2024.07.05
+Architecture: all
+Maintainer: @termux
+Installed-Size: 23148
+Depends: mandoc
+Filename: pool/main/stdman_2024.07.05_all.deb
+Size: 4798640
+MD5sum: 0be9fd907097ec8d8128725461b9d9aa
+SHA1: d9870ae01af30408b7dc21914145fc7987526e82
+SHA256: bdc71bdda4b973be863dda46d5556535f11988f967536e4439d8a1c656d1576e
+Homepage: https://github.com/jeaye/stdman
+Description: Formatted C++23 stdlib man pages (cppreference)
+
 Package: stdoutisatty
 Version: 1.0-1
 Architecture: aarch64
@@ -5375,6 +5417,47 @@ SHA256: 2a724f2699b7760d20b68d37ebb83e8f41e4323d4e89123ef8badedb34433351
 Homepage: https://smallstep.com/cli
 Description: An easy-to-use CLI tool for building, operating, and automating Public Key Infrastructure (PKI) systems and workflows
 
+Package: sun
+Version: 1.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2572
+Filename: pool/main/sun_1.0.0-3_aarch64.deb
+Size: 738140
+MD5sum: 51139f89e944f79faaceb28c0070ca05
+SHA1: 9ad31f318b08779d6a22cbfb3a422e13e1d4d38d
+SHA256: 06c8a993d9e60f2a31361de8c15707e98fab5d542f70934e12bbef43af088aff
+Homepage: https://stand-up-notes.org
+Description: A very simple note taking cli app
+
+Package: swaks
+Version: 20240103.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 316
+Depends: perl
+Filename: pool/main/swaks_20240103.0_all.deb
+Size: 58276
+MD5sum: 70cea415550bd2545cfe25ac02fc206a
+SHA1: 2ad908f4c4d5f1315643fc745bc95861f77e62a0
+SHA256: e65f2f466f9602b2b81e3329f1d7863c8fb4548c3e466ea58ab5d27d7e6e19e8
+Homepage: http://jetmore.org/john/code/swaks/
+Description: Swiss Army Knife for SMTP
+
+Package: swiftshader
+Version: 2025.06.25-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21144
+Depends: libandroid-shmem, libc++, vulkan-loader-generic
+Filename: pool/main/swiftshader_2025.06.25-2_aarch64.deb
+Size: 5088488
+MD5sum: ba8aefc2138e92a8318c0488cea48059
+SHA1: ce0e7957c3c08fd175adac07fb79183cb3af69f3
+SHA256: 7ead7e76898b70f7f3c993511fb334eb063f5b68e89ee0ce13c89957119666ba
+Homepage: https://swiftshader.googlesource.com/SwiftShader
+Description: A high-performance CPU-based implementation of the Vulkan graphics API
+
 Package: tdl
 Version: 0.19.2
 Architecture: aarch64
@@ -5387,6 +5470,65 @@ SHA1: 85b9a5224f40389fefc8cbc0ef1f87e80c30d76e
 SHA256: 416d713224ee38fe88af7c1f9255343eb5860b1f5aecdc2e79a74bfe34fc5d24
 Homepage: https://docs.iyear.me/tdl/
 Description: Telegram downloader/tools written in Golang
+
+Package: teckit
+Version: 2.5.12-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2996
+Depends: libc++, zlib
+Breaks: teckit-dev
+Replaces: teckit-dev
+Filename: pool/main/teckit_2.5.12-1_aarch64.deb
+Size: 432752
+MD5sum: 797e70edcc0d75ac6faa05ec7dc4f975
+SHA1: 1b6802dd0ce9b3fceed98446d2fcde938c649e68
+SHA256: 1981b89669e2db48f054c11f11b2e4477346d46178163655a7222fc8eca16649
+Homepage: https://scripts.sil.org/teckitdownloads
+Description: TECkit is a library for encoding conversion
+
+Package: telegram-bot-api
+Version: 20241031-2
+Architecture: aarch64
+Maintainer: @Sarisan
+Installed-Size: 25140
+Depends: libc++, openssl, zlib
+Filename: pool/main/telegram-bot-api_20241031-2_aarch64.deb
+Size: 5417860
+MD5sum: f8a3a5ee947c49ca0895203d67341e60
+SHA1: e647095f9dd4f979f834753823c4196023313d28
+SHA256: a4b9754aa9d0e7213e102e13474d0279c6576367ed943443ea7e4f936ee2e612
+Homepage: https://github.com/tdlib/telegram-bot-api
+Description: Telegram Bot API server
+
+Package: tin-summer
+Version: 1.21.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2504
+Filename: pool/main/tin-summer_1.21.14-1_aarch64.deb
+Size: 715372
+MD5sum: dd6715cdf2e3066dc549ef2864b1a6a5
+SHA1: 06ec2def24bf679dbdfcaa80db5a6ed0b9350817
+SHA256: 4b02dc989dd1fa45c8193ce3867f8f0d2412dfbbdaf978d2f1c1fa0cfa70deb5
+Homepage: https://github.com/vmchale/tin-summer
+Description: Find build artifacts that are taking up disk space
+
+Package: tinymist
+Version: 0.14.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 54944
+Depends: openssl
+Breaks: typst-lsp
+Replaces: typst-lsp
+Filename: pool/main/tinymist_0.14.0_aarch64.deb
+Size: 16348664
+MD5sum: ee8b8fbd25d820880023920efb5dfbd9
+SHA1: 97c5b1a724e087b42dc1928412badf0b0bed6cab
+SHA256: a487b80e3c19a05e8bcd6bc3c7edb5f90cb24042bf7d99db51d9da516afddfd5
+Homepage: https://myriad-dreamin.github.io/tinymist
+Description: An integrated language service for Typst
 
 Package: tinyproxy
 Version: 1.11.2-1
@@ -5632,6 +5774,20 @@ SHA256: 767cf3928c51ec9bc8ade6d8f719b86183a051bc97e947e41a7eb672ae82682c
 Homepage: https://github.com/astrale-sharp/typstfmt
 Description: basic formatter for the Typst language
 
+Package: udocker
+Version: 1.3.17
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1324
+Depends: curl, proot, python, resolv-conf
+Filename: pool/main/udocker_1.3.17_all.deb
+Size: 222316
+MD5sum: 532fba53d517856801a06f919a380a99
+SHA1: 2447f9274ee7b99c399ba0ed9d4ed70f6eb3dcc5
+SHA256: f841ea33839ca79adca3406d1f5859f225721d8d2aeeff7c7a4f10a824952bfc
+Homepage: https://indigo-dc.github.io/udocker
+Description: A basic user tool to execute simple docker containers in batch or interactive systems without root privileges.
+
 Package: unbound
 Version: 1.24.1-1
 Architecture: aarch64
@@ -5673,6 +5829,33 @@ SHA1: 19bf3e5169b031cd0f9a728d7cfdb6786f100652
 SHA256: 7a0ccaf33c12d41e7fbdff6168daa4d90f82bd2bf369faef95576ef7814c5a85
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Static libraries for util-linux
+
+Package: uucp
+Version: 1.07-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1560
+Filename: pool/main/uucp_1.07-2_aarch64.deb
+Size: 315704
+MD5sum: 1fdc8f39977a6068813abedaf49054d0
+SHA1: 9c284615383e82c30c669557e0fca9b1d4b86230
+SHA256: 4eeb6aa707322e18b85119d612d3087bf00ef833935cbdffd77646650087c292
+Homepage: https://www.airs.com/ian/uucp.html
+Description: The standard UUCP package of the Free Software Foundation
+
+Package: uv
+Version: 0.9.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 41372
+Depends: zstd
+Filename: pool/main/uv_0.9.8_aarch64.deb
+Size: 11201100
+MD5sum: 0d154b1bcecf8fef4cdb4f555da98485
+SHA1: 29d72298ff321d2c8f3005f0f33b9cf7cbf1eb6c
+SHA256: cc9e59ffa7114c01eb47e2f34aaebb64a70063166ca48c653bee37ad0343fde4
+Homepage: https://docs.astral.sh/uv/
+Description: An extremely fast Python package installer and resolver, written in Rust.
 
 Package: uwsgi
 Version: 2.0.31
@@ -5903,6 +6086,19 @@ SHA256: 1571abb2b18f60c7f22f13521f24e808ff20ccc1ac6fefa5dea8bcacf26bebbd
 Homepage: https://github.com/sachaos/viddy
 Description: A modern watch command
 
+Package: vivid
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1000
+Filename: pool/main/vivid_0.10.1-1_aarch64.deb
+Size: 332452
+MD5sum: dad1bb649c75d8ecea5130ace3ae1db9
+SHA1: 0be3b542d63fbc1844bebcc177d8eaead365d863
+SHA256: 38cb4ee350eb162b746275e05a4581c44bf8a8370a6551b4f08b6f48e10d5744
+Homepage: https://github.com/sharkdp/vivid
+Description: A themeable LS_COLORS generator with a rich filetype datebase
+
 Package: vkrm-keyring
 Version: 1.0
 Architecture: all
@@ -5957,6 +6153,32 @@ SHA256: 922905f67f597f4dbfa8d8a181490443bd81fcc3d2cf9189b8514f82c92d8fb5
 Homepage: https://github.com/KhronosGroup/Vulkan-Headers
 Description: Vulkan Header files and API registry
 
+Package: vulkan-utility-libraries
+Version: 1.4.332
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7436
+Filename: pool/main/vulkan-utility-libraries_1.4.332_aarch64.deb
+Size: 571792
+MD5sum: 766b26c2b9e6e46967eb22c5576249d7
+SHA1: e5f803e6ba6e4f57073acb39421fa2bf5064eabb
+SHA256: 99737d4e3bbcb6296d6cbaefdcc7aa732c8e111cd9bffb5128501d59850df5d5
+Homepage: https://github.com/KhronosGroup/Vulkan-Utility-Libraries
+Description: Utility Libraries for Vulkan
+
+Package: wakatime-cli
+Version: 1.131.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14808
+Filename: pool/main/wakatime-cli_1.131.0_aarch64.deb
+Size: 3575184
+MD5sum: 02ac8cb72b23ff24cd5fb90020c6c537
+SHA1: 7df3857e95cb8aae5108a4b0c59d00dd47df1b63
+SHA256: 4c3a947fadd8ca3b9a83851ebe62836e378294cdab0c284df2853ab6eed00535
+Homepage: https://wakatime.com/plugins/
+Description: Command line interface used by all WakaTime text editor plugins
+
 Package: wasmedge
 Version: 0.15.0
 Architecture: aarch64
@@ -5983,6 +6205,101 @@ SHA1: 8e65d1c509860f27d86d57e86b2450ba5f32f941
 SHA256: 1a6ba7fa030b515bb334f93e236308b76380a17022bd35b47e8a0f588474d832
 Homepage: https://wasmtime.dev/
 Description: A standalone runtime for WebAssembly
+
+Package: weggli
+Version: 0.2.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4320
+Depends: libc++
+Filename: pool/main/weggli_0.2.4-3_aarch64.deb
+Size: 761988
+MD5sum: 1bcf9c746dc781d238bc8e44efdcab45
+SHA1: dbd086af8fb43c6a1ca7820a41b6bd524e9da53d
+SHA256: 7531f3efdf055abb3a5ec0c9754bdece362148bf2a288ad74d262f37b08fa234
+Homepage: https://github.com/googleprojectzero/weggli
+Description: A fast and robust semantic search tool for C and C++ codebases
+
+Package: wego
+Version: 2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6988
+Filename: pool/main/wego_2.3-1_aarch64.deb
+Size: 1925588
+MD5sum: 1d84654f14c64f83e0addec3fa5b0543
+SHA1: 000a2dfb9af649117e3e43cd028b51f0d498e31b
+SHA256: 5d675542ac4fbe4ff19ae1dd67ed33e4f0c06c848bb754f80455513d21989599
+Homepage: https://github.com/schachmat/wego
+Description: weather app for the terminal
+
+Package: wiz
+Version: 2022.06.02-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 836
+Depends: libc++
+Filename: pool/main/wiz_2022.06.02-1_aarch64.deb
+Size: 224088
+MD5sum: e645f0e0ea47c7ecbb8b60f08f8bfc4c
+SHA1: 8ed3dbd72d5b1ae4ae0784109d06471fe4b71391
+SHA256: 19b40a0408433d1abb73822bd71940ff94a4c2c5875f1438016a5bb2d1d275b0
+Homepage: http://wiz-lang.org/
+Description: A high-level assembly language for writing homebrew software for retro console platforms
+
+Package: woff2
+Version: 1.0.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Depends: brotli, libc++
+Filename: pool/main/woff2_1.0.2-4_aarch64.deb
+Size: 67228
+MD5sum: 58421ffd667331b3372ea4bbb9e20fc3
+SHA1: 687cb054e6a176a8ef5ad137ddcc275ef26f997d
+SHA256: 72bd056a16cf7eeddf1345dadd75c6e8002a952edfd3a10e92c76df9a01e242f
+Homepage: https://www.w3.org/TR/WOFF2/
+Description: font compression reference code
+
+Package: wol
+Version: 0.7.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/main/wol_0.7.1-4_aarch64.deb
+Size: 13776
+MD5sum: 258b10933270f3c5c20cba0184373805
+SHA1: 4ce243994603dbd62b9220f868cfb613446fbb45
+SHA256: 960b09a90411f7a2a869da3cf883b8f05194b25612a37bdce2f183995733c976
+Homepage: https://sourceforge.net/projects/wake-on-lan/
+Description: Program implementing Wake On LAN functionality
+
+Package: wrk
+Version: 4.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: openssl, luajit
+Filename: pool/main/wrk_4.2.0-1_aarch64.deb
+Size: 31300
+MD5sum: fbe605fdd1d04751645883719b5d9a16
+SHA1: 4ad26ae3be87234c71fe4e9227bab60744336f29
+SHA256: 76de06c174c8fec2ecd8860138a26dda5e66cbddba5505a83404bccf124bfcae
+Homepage: https://github.com/wg/wrk
+Description: Modern HTTP benchmarking tool
+
+Package: wtfutil
+Version: 0.47.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84896
+Filename: pool/main/wtfutil_0.47.0_aarch64.deb
+Size: 14856900
+MD5sum: 41de07fc749670de189057814d0035cf
+SHA1: 77a7e0df48d910de2290265448e9f75a6aebe559
+SHA256: 3d693389bf9829c0d3f3dceeeb097ddd64aa1daab6d10733a1dfa65290830b98
+Homepage: https://wtfutil.com/
+Description: The personal information dashboard for your terminal
 
 Package: wv-tools
 Version: 1.2.9-6
@@ -6195,4 +6512,72 @@ SHA1: c96f25db7900b49ea042a73427938a4f59eb15c8
 SHA256: a504adc28667468dccb6338b8ef511ecd3952dc23107cbb581c769c4eece07aa
 Homepage: https://zrok.io/
 Description: An open source sharing solution built on OpenZiti.
+
+Package: zsh-completions
+Version: 0.35.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1724
+Depends: zsh
+Filename: pool/main/zsh-completions_0.35.0_all.deb
+Size: 246360
+MD5sum: 4d1bb7b545a87e6e258844027810defa
+SHA1: 7efbeea2edb0146fea75381434c15fb543dd22e6
+SHA256: da4628bff9030a4b74ab5e3263ca9bd4810c38e9654a279e7e3f31b5eb9e4894
+Homepage: https://github.com/zsh-users/zsh-completions
+Description: Additional completion definitions for Zsh
+
+Package: zsync
+Version: 0.6.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Filename: pool/main/zsync_0.6.3-1_aarch64.deb
+Size: 66292
+MD5sum: 23ef4980a61b03088e5990bffb2c2ba4
+SHA1: 959a5d272b63955779c179913a5245a7df8a3910
+SHA256: 66a3bfa690c4cd559ca9583c01da073c8316faa1e4a15120c834e83285d3836c
+Homepage: https://zsync.moria.org.uk/
+Description: A file transfer program to download files from remote web servers
+
+Package: zziplib
+Version: 0.13.80-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 484
+Depends: zlib
+Filename: pool/main/zziplib_0.13.80-1_aarch64.deb
+Size: 55144
+MD5sum: 5b857531b9de5a5758d808077fa005ab
+SHA1: a35fb2d8822c9c278670a7040b7d454261071d12
+SHA256: 1125cbbe89db380d1629c701d4b433a4f1649806e04f917e9402126d5cfffe56
+Homepage: https://zziplib.sourceforge.net/
+Description: Provides read access to zipped files in a zip-archive, using compression based on free algorithms
+
+Package: zzuf
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Filename: pool/main/zzuf_2022.05.29-1_aarch64.deb
+Size: 49984
+MD5sum: e867c034347695ae125da585b7b279bd
+SHA1: 02a8f64043bc6a2151a7de147f0e071ba7b23e15
+SHA256: dfe51f35b42b559636cd5c471cbf9381a81af4c3fd97906195de8655b257079d
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: A transparent application input fuzzer
+
+Package: zzuf-static
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: zzuf (= 2022.05.29-1)
+Filename: pool/main/zzuf-static_2022.05.29-1_aarch64.deb
+Size: 66604
+MD5sum: de0ae4af76115cd8d6760485cb14bd95
+SHA1: 16a52c7f081e7b52f5481c2bce27e30abc00c7ae
+SHA256: 3129e58e5c35a9f67cd4f3191d4653185420f197bbe3e763455a18c218e725c8
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: Static libraries for zzuf
 
